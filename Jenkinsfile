@@ -3,7 +3,7 @@ pipeline {
 
   environment {
        imagename = "adebanke24/customizedtomcatimage"
-       registryCredential = 'DockerHub'
+       registryCredential = 'dockerHub'
        dockerImage = ''
            }
 
